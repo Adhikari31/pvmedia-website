@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PVMedia | Let's Scale Your Brand</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Urbanist:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-
 <header class="fade-in">
   <div class="container">
     <h1>PVMedia</h1>
@@ -20,11 +20,27 @@
   </div>
 </header>
 
-<section class="hero fade-in">
-  <div class="container">
+<section class="hero" data-aos="fade-up">
+  <div class="container center">
     <h2>Let's Scale Your Brand</h2>
-    <p>At PVMedia, we help eCommerce brands unlock their true potential with strategic marketing solutions crafted for explosive growth.</p>
+    <p>Premium marketing solutions crafted exclusively for eCommerce brands ready to dominate.</p>
     <a href="contact.html" class="btn">Work With Us</a>
+  </div>
+</section>
+
+<section class="about" data-aos="fade-up">
+  <div class="container center">
+    <h3>Who We Are</h3>
+    <p>At PVMedia, we partner with visionaries to build, grow, and accelerate high-converting eCommerce empires with bespoke strategies.</p>
+    <p>We are passionate about helping brands scale to their maximum potential through targeted marketing, optimization, and data-driven solutions.</p>
+  </div>
+</section>
+
+<section class="cta" data-aos="fade-up">
+  <div class="container center">
+    <h3>Ready to Grow?</h3>
+    <p>Our team is ready to work with you and elevate your eCommerce brand.</p>
+    <a href="contact.html" class="btn">Get Started</a>
   </div>
 </section>
 
@@ -32,7 +48,14 @@
   <p>© 2025 PVMedia. All rights reserved.</p>
 </footer>
 
-<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: true,
+  });
+</script>
 </body>
 </html>
 <!DOCTYPE html>
@@ -41,11 +64,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Services | PVMedia</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Urbanist:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-
 <header class="fade-in">
   <div class="container">
     <h1>PVMedia</h1>
@@ -57,16 +80,24 @@
   </div>
 </header>
 
-<section class="content fade-in">
+<section class="services" data-aos="fade-up">
   <div class="container">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Custom eCommerce Growth Strategies</li>
-      <li>Paid Advertising (Meta, TikTok, Google)</li>
-      <li>Conversion Rate Optimization</li>
-      <li>Creative Consulting & UGC Strategies</li>
-      <li>End-to-End Brand Scaling Solutions</li>
-    </ul>
+    <h2>Our Expertise</h2>
+    <p>We provide specialized marketing solutions designed to fuel growth in your eCommerce business.</p>
+    <div class="grid">
+      <div class="card">
+        <h4>Paid Ads Management</h4>
+        <p>We scale your business with top-tier strategies across Meta, TikTok, and Google Ads.</p>
+      </div>
+      <div class="card">
+        <h4>Conversion Optimization</h4>
+        <p>Enhance your store's performance with expert conversion rate optimization strategies.</p>
+      </div>
+      <div class="card">
+        <h4>Brand Growth Consulting</h4>
+        <p>Tailored brand strategies to help you create memorable and profitable customer experiences.</p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -74,7 +105,14 @@
   <p>© 2025 PVMedia. All rights reserved.</p>
 </footer>
 
-<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: true,
+  });
+</script>
 </body>
 </html>
 <!DOCTYPE html>
@@ -83,11 +121,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact | PVMedia</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Urbanist:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-
 <header class="fade-in">
   <div class="container">
     <h1>PVMedia</h1>
@@ -99,11 +137,11 @@
   </div>
 </header>
 
-<section class="content fade-in">
-  <div class="container">
-    <h2>Contact Us</h2>
-    <p>Ready to scale your brand? Reach out and let's make it happen.</p>
-    <p>Email: <a href="mailto:hello@pvmedia.com">hello@pvmedia.com</a></p>
+<section class="contact" data-aos="fade-up">
+  <div class="container center">
+    <h2>Start Scaling</h2>
+    <p>Email us at <a href="mailto:hello@pvmedia.com">hello@pvmedia.com</a> to start growing your eCommerce brand.</p>
+    <p>We're excited to discuss how we can help you achieve new heights with your business.</p>
   </div>
 </section>
 
@@ -111,133 +149,110 @@
   <p>© 2025 PVMedia. All rights reserved.</p>
 </footer>
 
-<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: true,
+  });
+</script>
 </body>
 </html>
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: #0a1a2f; /* Navy */
-  color: #c0c0c0; /* Silver */
-  line-height: 1.6;
+  font-family: 'Urbanist', sans-serif;
+  background-color: #0a0f1a;
+  color: #c0c0c0;
+  overflow-x: hidden;
 }
-
-h1, h2 {
+h1, h2, h3, h4 {
   font-family: 'Playfair Display', serif;
 }
-
 .container {
   width: 90%;
   max-width: 1200px;
   margin: auto;
-  padding: 20px;
+  padding: 40px 20px;
 }
-
 header {
-  background: #0a1a2f;
-  padding: 20px 0;
+  background: #0a0f1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
 }
-
 header h1 {
-  float: left;
-  font-size: 24px;
-  color: #ffffff;
+  font-size: 28px;
+  color: #c0c0c0;
 }
-
-nav {
-  float: right;
-}
-
 nav a {
+  margin-left: 20px;
   color: #c0c0c0;
   text-decoration: none;
-  margin-left: 20px;
   font-weight: 600;
 }
-
-.hero {
+.hero, .about, .services, .contact {
   text-align: center;
   padding: 100px 20px;
 }
-
-.hero h2 {
+h2 {
   font-size: 48px;
   margin-bottom: 20px;
+  color: #ffffff;
 }
-
-.hero p {
-  font-size: 20px;
-  margin-bottom: 40px;
+h3, h4 {
+  margin-bottom: 15px;
+  color: #b0b0b0;
 }
-
+p {
+  font-size: 18px;
+  color: #c0c0c0;
+}
 .btn {
+  margin-top: 30px;
   display: inline-block;
-  padding: 12px 30px;
+  padding: 14px 30px;
   background: #c0c0c0;
-  color: #0a1a2f;
-  text-decoration: none;
-  font-weight: 600;
+  color: #0a0f1a;
   border-radius: 30px;
-  transition: background 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
 }
-
 .btn:hover {
   background: #ffffff;
 }
-
-.content {
-  padding: 80px 20px;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul li {
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
 footer {
+  background: #0a0f1a;
   text-align: center;
   padding: 30px 20px;
-  background: #0a1a2f;
   font-size: 14px;
+  color: #7d7d7d;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+.card {
+  background: #101827;
+  border-radius: 15px;
+  padding: 30px;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.center {
+  text-align: center;
+}
+a {
+  color: #c0c0c0;
+}
+a:hover {
+  color: #ffffff;
 }
 
-.fade-in {
-  opacity: 0;
-  animation: fadeIn 1.5s forwards;
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-}
-const faders = document.querySelectorAll('.fade-in');
-
-const appearOptions = {
-  threshold: 0,
-  rootMargin: "0px 0px -100px 0px"
-};
-
-const appearOnScroll = new IntersectionObserver(function(
-  entries,
-  appearOnScroll
-) {
-  entries.forEach(entry => {
-    if (!entry.isIntersecting) {
-      return;
-    } else {
-      entry.target.classList.add('appear');
-      appearOnScroll.unobserve(entry.target);
-    }
-  });
-}, appearOptions);
-
-faders.forEach(fader => {
-  appearOnScroll.observe(fader);
-});
 
